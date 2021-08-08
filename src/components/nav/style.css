@@ -1,0 +1,16 @@
+.navbar-brand > img {
+  padding: 10px;
+}
+.navbar {
+  background: #b3e0e8;
+  font-family: "Rubik", sans-serif;
+  
+  /* make navbar full width */
+  /* width: 100vw !important;  */
+}
+
+.nav-link {
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 10px;
+}
