@@ -22,7 +22,7 @@ class About extends Component {
                 </p>
                 <p>
                   <span className="about-text-styling">Property Search</span> launched
-                  in 2020 and is headquartered in Houston.
+                  in 2020 and is headquartered in Chennai.
                 </p>
             </Col>
           </Row>
@@ -37,7 +37,7 @@ class About extends Component {
           <Row className="m-3">
             <div class="card-deck">
               <div class="card shadow-sm p-3 mb-5 bg-white rounded border-0">
-                <img class="card-img-top" src="..." alt="Card image cap"/>
+                <img class="card-img-top" alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title"><strong>Affordable Rent</strong></h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -45,7 +45,7 @@ class About extends Component {
                 </div>
               </div>
               <div class="card shadow-sm p-3 mb-5 bg-white rounded border-0">
-                <img class="card-img-top" src="..." alt="Card image cap"/>
+                <img class="card-img-top" alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -53,7 +53,7 @@ class About extends Component {
                 </div>
               </div>
               <div class="card shadow-sm p-3 mb-5 bg-white rounded border-0">
-                <img class="card-img-top" src="..." alt="Card image cap"/>
+                <img class="card-img-top" alt="Card image cap"/>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>

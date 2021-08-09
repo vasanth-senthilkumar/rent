@@ -21,8 +21,8 @@ function Footer() {
           <Col md={3} sm={8}>
             <h4>Contact Us</h4>
             <ul className="list-unstyled">
-              <li>Houston, Texas</li>
-              <li>(832) 555-5555</li>
+              <li>Salem, TamilNadu</li>
+              <li>(+91) 99943 23345</li>
               <li>contact@propertysearch.com</li>
             </ul>
           </Col>
@@ -43,7 +43,7 @@ function Footer() {
             </Nav.Link>
           </Col>
         </Row>
-        {/* Footer Bottom */}
+
         <div className="footer-bottom">
           <p className="text-xs-center">
             &copy;{new Date().getFullYear()} Property Search

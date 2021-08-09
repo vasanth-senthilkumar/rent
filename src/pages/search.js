@@ -48,20 +48,7 @@ class Home extends React.Component {
 
       console.log(zipcode, city);
 
-      const breed1 = 'husky';
-      const breed2 = 'shiba';
-
       const realtyMoleAPIKey = 'aa9315e3c9msh7e70db338b431dbp1dae55jsn19c615063e3f';
-
-      const addressLine1Search = this.state.addressLine1;
-      const bedroomsSearch = this.state.bedrooms;
-      const bathroomsSearch = this.state.bathrooms;
-      const priceSearch = this.state.price;
-      const daysOnMarketSearch = this.state.daysOnMarket;
-
-      const averageRent = this.state.averageRent;
-      const minRent = this.state.minRent;
-      const maxRent = this.state.maxRent;
 
       const url1 = `https://realty-mole-property-api.p.rapidapi.com/rentalListings?city=${city}&limit=6&rapidapi-key=${realtyMoleAPIKey}`;
       const url2 = `https://realty-mole-property-api.p.rapidapi.com/zipCodes/${zipcode}?&limit=1&rapidapi-key=${realtyMoleAPIKey}`;
@@ -97,8 +84,7 @@ class Home extends React.Component {
     };
 
   getSavedProperties = () => {
-    // only load get data when user hits click button, then display button
-
+   
     if(!this.state.showSaved) {
       getProps()   
         .then(res => { 

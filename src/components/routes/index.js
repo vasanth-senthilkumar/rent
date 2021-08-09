@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import Search from "../../pages/search";
 import About from "../../pages/about";
 import Profile from "../../pages/profile";
-import Team from "../../pages/team";
 import SignIn from "../../pages/signin";
 import NotFound from "../../pages/notfound";
 import Welcome from "../../pages/welcome";
@@ -22,9 +21,6 @@ export default function Routes() {
       </Route>
       <Route path="/profile">
         <Profile />
-      </Route>
-      <Route path="/team">
-        <Team />
       </Route>
       <Route path="/signin">
         <SignIn />

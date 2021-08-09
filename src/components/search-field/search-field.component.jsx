@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../search-field/styles.css';
 
-import { Container, Form, Button, Row, Col } from 'react-bootstrap';
+import { Container, Form, Button, Row} from 'react-bootstrap';
 
 const SearchField = (props) => (
     <Container className="searchFieldContainer">

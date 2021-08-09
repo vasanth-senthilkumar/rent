@@ -1,13 +1,8 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-
-import {save} from '../../utils/API';
 import {deleteProp} from '../../utils/API';
-// import save from '../../utils/API';
-
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -15,7 +10,7 @@ import houseandkeys from '../../Images/house-and-keys.jpg';
 
 const TestPropertyCard = (props) => {
 
-    const [cardData, setCardData] = useState(props.streetAddr)
+    const [cardData] = useState(props.streetAddr)
         // this.state = {
         //     street: '',
         //     beds: '',
@@ -34,7 +29,7 @@ const TestPropertyCard = (props) => {
             .then(() => {
                 console.log('Data has been sent to the server');
                 this.resetUserInputs();
-                // this.getPropertySearch(); 
+
         })
             .catch(() => {
             console.log('Internal server error');

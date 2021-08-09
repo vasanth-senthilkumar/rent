@@ -60,6 +60,14 @@ const RentalCriteriaFilterCard = (props) => {
                             <Form.Control type="text" placeholder="Min" />
                             </Col>
                         </Form.Group>
+                        <Form.Group as={Row} controlId="formPlaintextMinRent">
+                            <Form.Label column sm="12" className="text-left">
+                                Recommended House
+                            </Form.Label>
+                            <Col sm="10">
+                            <Form.Control type="text" placeholder="Min" />
+                            </Col>
+                        </Form.Group>
 
                     </Form>
 
